@@ -24,13 +24,13 @@
 
 ## III. Routing
 ### A. Explanation of how routing works
-> "Routing is the process of mapping URLs to specific actions in the application. For example, when a user navigates to a specific URL, the routing system will determine which controller and action should be called to handle the request."
+> "Routing is the process of mapping URLs to specific actions in the application. For example, when a user navigates to a specific URL, the routing system will determine which controller and action should be called to handle the request. In addition to mapping URLs to controllers and actions, routing also allows us to specify which HTTP method should be used to handle the request. Common HTTP methods used in Laravel include `GET`, `POST`, `PUT`, `DELETE`, `PATCH`, `OPTIONS`, and `HEAD`."
 
 ### B. Simple examples of how routing is used in Laravel
-> "In Laravel, routes are defined in a routes file. Here is a simple example of a route in Laravel: Route::get('/', 'HomeController@index');. This route maps the root URL to the index method of the HomeController. When a user navigates to the root URL, the index method of the HomeController will be called and its view will be displayed."
+> "In Laravel, routes are defined in a routes file. Here is a simple example of a route in Laravel: Route::get('/', 'HomeController@index');. This route maps the root URL to the index method of the HomeController using the GET method. When a user navigates to the root URL using the GET method, the index method of the HomeController will be called and its view will be displayed."
 
 ### C. How routing helps to map URLs to specific actions in the application
-> "By using routing, we can map different URLs to different controllers and actions. This allows us to easily control which parts of the application are accessible from the web, and how requests are handled. This makes it easy to add, change, or remove features in the application without affecting other parts of the code."
+> "By using routing, we can map different URLs to different controllers and actions, and specify the HTTP method that should be used to handle the request. This allows us to easily control which parts of the application are accessible from the web, and how requests are handled. This makes it easy to add, change, or remove features in the application without affecting other parts of the code."
 
 
 ## IV. Conclusion
