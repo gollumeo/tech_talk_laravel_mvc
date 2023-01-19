@@ -25,6 +25,13 @@
 ## III. Routing
 ### A. Explanation of how routing works
 > "Routing is the process of mapping URLs to specific actions in the application. For example, when a user navigates to a specific URL, the routing system will determine which controller and action should be called to handle the request. In addition to mapping URLs to controllers and actions, routing also allows us to specify which HTTP method should be used to handle the request. Common HTTP methods used in Laravel include `GET`, `POST`, `PUT`, `DELETE`, `PATCH`, `OPTIONS`, and `HEAD`."
+> * `GET`: Retrieves a resource or a list of resources from the server.
+* `POST`: Creates a new resource on the server.
+* `PUT`: Updates an existing resource on the server.
+* `DELETE`: Deletes a resource from the server.
+* `PATCH`: Partially updates an existing resource on the server.
+* `OPTIONS`: Returns a list of allowed methods for a resource.
+* `HEAD`: Retrieves the headers for a resource, without the body of the response.
 
 ### B. Simple examples of how routing is used in Laravel
 > "In Laravel, routes are defined in a routes file. Here is a simple example of a route in Laravel: Route::get('/', 'HomeController@index');. This route maps the root URL to the index method of the HomeController using the GET method. When a user navigates to the root URL using the GET method, the index method of the HomeController will be called and its view will be displayed."
