@@ -43,3 +43,34 @@
 ### C. Encouragement to start experimenting with Laravel
 > "I encourage you to start experimenting with Laravel and see how it can help you in your web development projects. With its elegant syntax and powerful features, Laravel can help you build better and more efficient web applications."
 
+## Code examples
+### PHP
+```php
+<?php
+    echo "Hello, World!";
+?>
+```
+This simple code displays "Hello, World!" using basic PHP. 
+
+### Laravel
+#### Controller
+```laravel
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class HelloController extends Controller
+{
+    public function index()
+    {
+        return "Hello, World!";
+    }
+}
+```
+
+#### Route
+```laravel
+Route::get('/', 'HelloController@index');
+```
