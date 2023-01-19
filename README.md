@@ -35,5 +35,11 @@
 
 ## IV. Conclusion
 ### A. Summary of key points
+> "In this talk, we discussed Laravel, a popular PHP web framework. We covered the basics of the MVC architecture and how it is used in Laravel to organize and maintain the code. We also discussed routing, which is used to map URLs to specific actions in the application. Laravel provides many benefits for web developers, such as a clean and elegant syntax and tools for common tasks, making it a powerful choice for building web applications.
+
 ### B. Additional resources for learning more about Laravel
+> "There are many resources available to help you learn more about Laravel. The Laravel website has a great documentation and tutorials. Additionally, there are many books, videos, and online courses available that can help you learn more about the framework and its features.
+
 ### C. Encouragement to start experimenting with Laravel
+> "I encourage you to start experimenting with Laravel and see how it can help you in your web development projects. With its elegant syntax and powerful features, Laravel can help you build better and more efficient web applications."
+
