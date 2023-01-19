@@ -180,3 +180,7 @@ public function head($id)
     return response('')->header('Content-Type', 'application/json')->header('Etag', md5($user));
 }
 ```
+
+> The `HEAD` method takes an `$id` parameter, which is used to retrieve a specific user from the database. The method then returns an empty response with headers that include the content type and an ETag (entity tag) for the user. The ETag is a hash of the user data, which can be used to check if the user data has been modified.
+
+The `HEAD` method is similar to the `GET` method, but it only returns the headers and no body. This allows the client to check the headers and ETag without retrieving the full resource.
