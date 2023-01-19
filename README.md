@@ -85,7 +85,7 @@ Route::get('/', 'HelloController@index');
 
 "Cela lie l'URL racine à la méthode index du contrôleur HelloController. Lorsqu'un utilisateur navigue vers l'URL racine, la méthode index du contrôleur HelloController sera appelée et la chaîne de caractères "Hello, World!" sera affichée à l'écran."
 
-## Code examples - Methods
+## Exemples de code - Méthodes
 ### GET
 
 ```php
