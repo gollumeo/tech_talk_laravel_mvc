@@ -54,7 +54,7 @@ This simple code displays "Hello, World!" using basic PHP.
 
 ### Laravel
 #### Controller
-```laravel
+```php
 <?php
 
 namespace App\Http\Controllers;
@@ -69,8 +69,10 @@ class HelloController extends Controller
     }
 }
 ```
+In this example, the HelloController class has an index method which returns the string "Hello, World!" .
 
 #### Route
-```laravel
+```php
 Route::get('/', 'HelloController@index');
 ```
+This maps the root URL to the index method of the HelloController. When a user navigates to the root URL, the index method of the HelloController will be called and the "Hello, World!" string will be displayed on the screen.
